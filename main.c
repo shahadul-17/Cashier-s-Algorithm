@@ -17,7 +17,7 @@ int main()
             if (coins[i] <= change)
             {
                 change -= coins[i];
-                minimumCoinsRequired += 1;
+                minimumCoinsRequired++;
 
                 break;
             }
